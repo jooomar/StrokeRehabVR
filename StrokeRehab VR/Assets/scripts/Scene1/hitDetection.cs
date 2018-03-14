@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class hitDetection : MonoBehaviour {
 	public bool isPalm, isElbow;
-
+	/*
 	void OnTriggerEnter(Collider col){
  
 		if (isElbow) {
 			postureManager.elbow = true;
-			Debug.Log ("****************elbow in position!");
+			//Debug.Log ("****************elbow in position!");
 		} else if (isPalm) {
 			postureManager.palm = true;
-			Debug.Log ("****************palm in position!");
+			//Debug.Log ("****************palm in position!");
 		}
 	}
 
@@ -23,5 +23,5 @@ public class hitDetection : MonoBehaviour {
 			postureManager.palm = false;
 		}
 	}
-
+*/
 }

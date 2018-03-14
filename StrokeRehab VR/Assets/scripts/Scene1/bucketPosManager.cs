@@ -10,9 +10,4 @@ public class bucketPosManager : MonoBehaviour {
 	void Start () {
 		gameObject.transform.position = HMD.transform.position + offset;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

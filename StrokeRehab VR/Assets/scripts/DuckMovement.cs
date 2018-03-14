@@ -14,7 +14,7 @@ public class DuckMovement : MonoBehaviour {
 	public Animator duckAnim;
 
 	public Vector3 tempPos;
-
+	public disableVSync disVS;
 
 	void Start(){
 		startPosition = gameObject.transform.position;
@@ -42,18 +42,13 @@ public class DuckMovement : MonoBehaviour {
 			//set animator
 			duckAnim.SetBool("swimming", true);
 			Destroy(col.gameObject);
+			disableVSync.Score += disableVSync.tempScore;
+			disVS.UpdateScore ();
 			Active = false;
 			ret = true;
 		}
 
-		if (col.gameObject.tag.Equals ("start")) {
-			//set animator
-			tempMovement = true;
-			Active = false;
-			ret = false;
-			//Debug.Log("dfgdfgdg");
-			duckAnim.SetBool("swimming", false);
-		}
+
 	}
 
 	void OnTriggerEnter(Collider col){
@@ -62,7 +57,7 @@ public class DuckMovement : MonoBehaviour {
 			tempMovement = true;
 			Active = false;
 			ret = false;
-			Debug.Log("dfgdfgdg");
+//			Debug.Log("dfgdfgdg");
 			duckAnim.SetBool("swimming", false);
 		}
 	}

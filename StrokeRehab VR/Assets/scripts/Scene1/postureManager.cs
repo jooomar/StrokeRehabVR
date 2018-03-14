@@ -16,6 +16,7 @@ public class postureManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		/*
 		if (palm && elbow) {
 			duration += Time.deltaTime;
 			if (duration > HoldDuration) {
@@ -24,5 +25,6 @@ public class postureManager : MonoBehaviour {
 			}
 
 		}
+		*/
 	}
 }

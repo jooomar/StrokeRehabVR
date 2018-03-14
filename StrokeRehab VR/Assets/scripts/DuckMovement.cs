@@ -30,7 +30,7 @@ public class DuckMovement : MonoBehaviour {
 			gameObject.transform.position = Vector3.MoveTowards (gameObject.transform.position, startPosition, Time.deltaTime * speed);
 			gameObject.transform.LookAt (startPosition);
 		} else if (tempMovement) {
-			Debug.Log ("*********************");
+		//	Debug.Log ("*********************");
 			gameObject.transform.position = Vector3.MoveTowards (gameObject.transform.position, tempPos, Time.deltaTime * speed);
 			gameObject.transform.LookAt (tempPos);
 		}
@@ -51,7 +51,7 @@ public class DuckMovement : MonoBehaviour {
 			tempMovement = true;
 			Active = false;
 			ret = false;
-			Debug.Log("dfgdfgdg");
+			//Debug.Log("dfgdfgdg");
 			duckAnim.SetBool("swimming", false);
 		}
 	}

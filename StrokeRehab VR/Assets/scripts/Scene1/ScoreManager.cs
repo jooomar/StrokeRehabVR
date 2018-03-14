@@ -6,16 +6,17 @@ public class ScoreManager : MonoBehaviour {
 
 
 	public int localScore;
-
+	AudioSource source;
 
 	// Use this for initialization
 	void Start () {
-		
+		source = gameObject.GetComponent<AudioSource> ();
 	}
 
 	void OnTriggerEnter(Collider col){
 		if (col.gameObject.tag.Equals ("bread")) {
 			disableVSync.tempScore = localScore;
+			source.PlayOneShot (source.clip);
 		}
 	}
 

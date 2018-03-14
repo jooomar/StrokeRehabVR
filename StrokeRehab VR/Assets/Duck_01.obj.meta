@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ad0226b6e65834869bd346af881ecf98
-timeCreated: 1520923333
+guid: c4c883d2e9c4b418ea289165b57d12ac
+timeCreated: 1520927984
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,23 +9,17 @@ ModelImporter:
     100002: Duck_01_Cube.045
     400000: //RootNode
     400002: Duck_01_Cube.045
-    2100000: Duck_01_Cube.045Mat
-    2100002: 455A64
-    2100004: 4CAF50
-    2100006: FFFFFF
-    2100008: 795548
-    2100010: 78909C
-    2100012: FFEB3B
-    2100014: 1A1A1A
+    2100000: 455A64
+    2100002: 4CAF50
+    2100004: FFFFFF
+    2100006: 795548
+    2100008: 78909C
+    2100010: FFEB3B
+    2100012: 1A1A1A
     2300000: Duck_01_Cube.045
     3300000: Duck_01_Cube.045
     4300000: Duck_01_Cube.045
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Duck_01_Cube.045Mat
-    second: {fileID: 2100000, guid: 1211fc9107488466a87762ebcdef1a75, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

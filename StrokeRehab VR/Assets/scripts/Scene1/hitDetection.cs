@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class hitDetection : MonoBehaviour {
 	public bool isPalm, isElbow;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	void OnTriggerEnter(Collider col){
  

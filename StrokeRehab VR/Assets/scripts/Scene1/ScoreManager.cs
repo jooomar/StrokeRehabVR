@@ -19,11 +19,7 @@ public class ScoreManager : MonoBehaviour {
 			source.PlayOneShot (source.clip);
 		}
 	}
-
-
-
-	// Update is called once per frame
-	void Update () {
 		
-	}
+
+	 
 }
